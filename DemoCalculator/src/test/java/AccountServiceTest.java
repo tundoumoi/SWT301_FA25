@@ -14,7 +14,7 @@ public class AccountServiceTest {
     static void setup() throws IOException {
         service = new AccountService();
         // Ghi header file kết quả
-        String path = System.getProperty("user.dir") + "/UnitTestResult.csv";
+        String path = "../DemoCalculator/src/test/resources/UnitTestResult.csv";
         writer = new FileWriter(path);
         writer.write("username,password,email,expected,actual,result\n");
         System.out.println("📁 File saved to: " + path);

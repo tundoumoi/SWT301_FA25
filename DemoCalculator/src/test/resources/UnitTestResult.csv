@@ -1,0 +1,31 @@
+username,password,email,expected,actual,result
+TuanVan,Strong@123,tuan@example.com,true,true,PASS
+john_doe,Abc@1234,john.doe@gmail.com,true,true,PASS
+Linh123,MyPass@2025,linh_123@yahoo.com,true,true,PASS
+Minh-Anh,Secure#Pass9,minh.anh@outlook.com,true,true,PASS
+1tuan,Strong@123,tuan1@example.com,false,false,PASS
+_tuan,Strong@123,tuan2@example.com,false,false,PASS
+tv,Strong@123,tv@example.com,false,false,PASS
+ThisUsernameIsWayTooLong,Strong@123,tuan3@example.com,false,false,PASS
+admin,Strong@123,admin@example.com,false,false,PASS
+Tuan Van,Strong@123,tuan4@example.com,false,false,PASS
+TuanVan,12345678,tuan5@example.com,false,false,PASS
+TuanVan,password,tuan6@example.com,false,false,PASS
+TuanVan,Password1,tuan7@example.com,false,false,PASS
+TuanVan,Pass@,tuan8@example.com,false,false,PASS
+TuanVan,null,tuan9@example.com,false,false,PASS
+TuanVan,StrongPass,tuan10@example.com,false,false,PASS
+TuanVan,Strong@123,tuan.example.com,false,false,PASS
+TuanVan,Strong@123,tuan@,false,false,PASS
+TuanVan,Strong@123,@example.com,false,false,PASS
+TuanVan,Strong@123,tuan@example,false,false,PASS
+TuanVan,Strong@123,tuan@ example.com,false,false,PASS
+null,Strong@123,tuan@example.com,false,false,PASS
+TuanVan,null,tuan@example.com,false,false,PASS
+TuanVan,Strong@123,null,false,false,PASS
+1tv,123,tuan,false,false,PASS
+T,short,wrongemail,false,false,PASS
+Tuan,Strong@123,tuan@example.com,true,true,PASS
+abc,Abc@1234,abc@abc.co,true,true,PASS
+User123,Strong@123,USER@EXAMPLE.COM,true,true,PASS
+User_Test,Strong@123,user_test@domain.info,true,true,PASS
