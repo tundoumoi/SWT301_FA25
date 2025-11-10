@@ -1,0 +1,2 @@
+firstName,lastName,email,gender,phone,birthDate,subjects,hobbies,state,city,address,picturePath
+John,Doe,john.doe@example.com,Male,0987654321,"15 May 1995","Maths|English","Sports|Reading",NCR,Delhi,"123 Nguyen Trai, HCMC","src/test/resources/avatar.png"
